@@ -55,7 +55,7 @@ public class Take_Home_Exercise extends BasePage {
 
     }
 
-    @DisplayName("Negative Test Result")
+    @DisplayName("Negative Test Result!")
     @Test
     public void declineTestResult () {
         Map<String, ?> responseBodyInfo = given().accept(ContentType.JSON)
